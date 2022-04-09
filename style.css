@@ -6,8 +6,10 @@
   }
   
   body {
+    background-image: url('img/12b23a7752e8a7a4464c1ff5e596237f.gif');
     height: 100vh;
-    background:  #9182A6;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   body.light-mode {
@@ -23,6 +25,7 @@
     top: 50%;
     left: 50%;
     padding: 30px 40px;
+   
   }
   
   h1 {
@@ -61,10 +64,7 @@
     box-shadow: 0 15px 30px rgba(0,0,0,0.3);
   }
   
-  #new-task.light-mode {
-    background-color: #fff;
-    color: #E6EEC6;
-  }
+  
   
   #new-task input {
     width: 70%;
@@ -101,7 +101,7 @@
   
   #new-task button:hover {
     background-color: #cecece;
-    color: #4e545c;
+    color: #0516b1;
   }
   
   #tasks {
@@ -114,10 +114,6 @@
     position: relative;
   }
   
-  #tasks.light-mode {
-    background-color: #fff;
-    color: #000;
-  }
   
   .task {
     background: #fff;
@@ -151,7 +147,7 @@
   
   .task button:hover {
     background-color: #cecece;
-    color: #9182A6;
+    color: #0516b1;
   }
   
   .completed {
@@ -179,13 +175,13 @@
     color: #e5e8e8;
   }
   
-  .switchMode.light-mode {
-      background-color:  #9182A6;
-      color: #e5e8e8;
-  }
-  
-  .switchMode.light-mode:hover {
-      background-color: #9182A6;
-      color: #e5e8e8;
+
+  .eXoBgc {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 30px;
   }
   
