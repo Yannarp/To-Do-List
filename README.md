@@ -1,5 +1,5 @@
-# ToDoList
-<li>Exercitando the concepts to built the ToDo List, I added the DarkMode/LightMode feature.</li>
+# ToDoList 📝
+<li>Exercitando the concepts to built the ToDoList, I added the DarkMode/LightMode feature.</li>
 
 # Website 💻
 
